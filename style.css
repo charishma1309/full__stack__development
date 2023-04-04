@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body{
+    
+    background-size:1550px 740px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Rose', cursive;
+}
+nav{
+    margin: 25px;
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:35px;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#ffc233;
+}
+nav div img{
+    height: 37px;
+    width: 95px;
+}
+button{
+    padding: 5px 20px;
+    color: white;
+    background-color: #ff505f;
+    border: #ff505f solid 1px;
+    font-weight: 700;
+}
+
+footer nav{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+footer nav img{
+    height: 100px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+h1{
+    font-family: "Dela Gothic One", cursive;
+    font-weight:350;
+    font-size: 60px;
+    align-content: center;  
+    color:#ffc233 ;
+    text-align: center;
+    line-height: 65px;
+}
+.big_button{
+    padding:12px 30px;
+}
+a:hover{
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: #ff505f;
+    border:#ff505f solid 1px;
+}
